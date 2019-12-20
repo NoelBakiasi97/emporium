@@ -1,0 +1,458 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap')
+
+body
+    font-family: 'Poppins', sans-serif
+
+.body-dark
+    background-color: rgb(41, 41, 41)
+    h2
+        color: white
+    .navbar-nav
+        li
+            a
+                color: white !important          
+    h2
+        color: white
+    h3
+        color: white
+
+    .div1-sec3
+        a
+            p
+                color: white
+    .div2-sec3
+        a
+            p
+                color: white
+    .div3-sec3
+        a
+            p
+                color: white
+    .div4-sec3
+        a
+            p
+                color: white  
+    .div-sale
+        a
+            p
+                color: white                      
+nav
+    background-color: white
+    z-index: 5
+
+header
+    h2
+        padding-top: 2%
+        padding-bottom: 1%
+
+.navbar-nav
+    margin-left: 8%
+    li
+        font-family: 'Poppins', sans-serif
+        padding: 0 15px
+        font-size: 15px
+        
+
+.sticky
+
+    top: 0
+    z-index: 6
+    position: fixed
+    width: 100%
+    
+.navInvisible2
+    display: flex !important
+
+
+.btn1
+    height: 25px
+    width: 25px
+    margin-right: 2px
+
+.btn2
+    height: 25px
+    width: 25px
+    background-color: black
+    border: 1px solid black
+
+.connect
+    color: white
+    background-color: black
+    border: 1px solid black
+    border-radius: 10px
+    padding: 6%
+
+.btn-connect:focus
+    outline: none
+
+.sec1
+    background-color: rgb(243, 243, 243)
+    height: 70vh
+
+.prod-js2
+    position: absolute
+    z-index: 5
+    background-color: black
+    padding-left: 8px
+    padding-top: 10px
+    display: flex !important
+    text-align: left
+    margin-top: 3.5%
+    margin-left: 1%
+    width: 13.5%
+    height:190px
+    flex-direction: column
+    a
+        text-decoration: none
+    a:hover
+        color: white !important
+
+#product
+    padding-bottom: 38px
+    margin: 0
+
+
+
+.div1-sec1
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    padding-left: 20%
+
+.shop
+    font-size: 150%
+.grosEmporium
+    font-size: 250%
+.btn-sec1
+    background-color: red
+    border: 1px solid red
+    border-radius: 25px
+    padding: 2% 5%
+    margin-right: 55%
+
+
+.btn-sec1:hover
+    background-color: black
+    border: 1px solid black
+
+.btn-sec1::after
+    content: ""
+    
+
+.btn-sec1:hover::after
+    content: ">"
+    background-color: black
+    padding-left: 13px
+    transition: 0.5s ease
+.btn-sec1:focus
+    outline: none
+
+
+.sec2
+    justify-content: space-around
+    height: 22vh
+    a
+        text-decoration: none
+       
+
+.div1-sec2
+    background-image: url("../images/services/service-1.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    width: 32%
+    margin-left: 0.55%
+    flex-direction: column
+    justify-content: center
+
+.div2-sec2
+    background-image: url("../images/services/service-2.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    width: 32%
+    flex-direction: column
+    justify-content: center
+
+.div3-sec2
+    background-image: url("../images/services/slider-3.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    width: 32%
+    margin-right: 0.55%
+    flex-direction: column
+    justify-content: center
+
+.hr1-sec2
+    border-top: 1px solid white
+    width: 34%
+.hr2-sec2
+    border-top: 1px solid white
+    width: 30%
+.hr3-sec2
+    border-top: 1px solid white
+    width: 22%
+
+.sec3
+    flex-direction: column
+    align-items: center
+    
+    
+    a
+        color: black
+        text-decoration: none
+
+    p
+        font-weight: bold
+
+    span
+        font-weight: bold
+
+    img
+        width: 330px
+        height: 260px
+        transition: 1s ease
+        opacity: 1
+        overflow: hidden
+        animation: fade 2s linear
+        
+    img:hover
+        transform: scale(1.1)
+
+    .grosseDiv1Sec3
+        margin-top: 3%
+
+    .div1-sec3
+        flex-direction: column
+        align-items: center
+        margin-top: 10px
+     
+
+    .span1-sec3
+        border-radius: 50%
+        padding: 12px 5px
+    
+        
+    .div-sale
+        flex-direction: column
+        
+
+    .div3-sec3
+        flex-direction: column
+        align-items: center
+        margin-top: 10px
+
+    .span-sale
+        text-decoration: line-through
+    
+
+
+
+
+
+
+.parent
+    overflow: hidden
+    img 
+        width: 100%
+        transition: ease 1s
+    &:hover
+        img 
+            transform: scale(1.2)
+        .btnProd
+            opacity: 1
+            a 
+                display: flex
+                align-items: center
+                height: 50px
+
+    .btnProd 
+        position: absolute
+        bottom: 90px
+        opacity: 0
+        z-index: 3
+        transition: bottom ease 1s
+
+        a 
+            opacity: 0.8
+            transition: ease 0.5s
+          
+            color: white
+            text-decoration: none
+            height: 20px
+    
+
+.view 
+    height: 7vh
+    background-color: black
+    color: white
+
+.cart 
+    height: 7vh
+    background-color: rgb(189, 77, 77)
+
+
+
+.div4-sec3
+        flex-direction: column
+        align-items: center
+        margin-left: 38%
+        margin-top: 8%
+        width: 90%
+
+
+    
+        
+        
+        
+
+    
+
+.btn-sec4
+    border: 1px solid red
+    border-radius: 20px
+    padding: 0.5%
+    width: 8%
+
+.div-sec4
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    background-image: url("../images/cta-bg.jpg")
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+    height: 700px
+
+.sec6
+    display: flex
+    justify-content: space-around
+
+.btn-sec6
+    border: solid 1px rgb(49, 49, 49)
+    padding: 8px 16px
+
+.btn2-sec6
+    border: solid 1px white
+    padding: 8px 16px
+
+.div-sec6
+    width: 30%
+
+#div2-sec6
+    background-color: #bd584e
+
+.p-sec6
+    padding: 0 15%
+
+#div1-sec6
+    background-color: #969595
+
+#div3-sec6
+    background-color: #969595
+
+.modal 
+  display: none
+  position: fixed 
+  z-index: 1 
+  left: 0
+  top: 0
+  width: 100% 
+  height: 100% 
+  overflow: auto 
+  background-color: rgb(0,0,0) 
+  background-color: rgba(0,0,0,0.4) 
+
+
+/* Modal Content/Box */
+.modal-content 
+  background-color: #fefefe
+  margin: 15% auto
+  padding: 20px
+  border: 1px solid #888
+  width: 80%
+  .bigDiv
+      justify-content: center
+      .div1
+          margin-right: 5%
+      .div2
+          margin-left: 5%  
+
+
+
+/* The Close Button */
+.close 
+  color: #aaa
+  float: right
+  font-size: 28px
+  font-weight: bold
+
+
+.close:hover,
+.close:focus 
+  color: black
+  text-decoration: none
+  cursor: pointer
+
+
+#sec-form3
+    display: flex !important
+    justify-content: center
+    background-image: url("../images/subscribe.jpg")
+    background-size: cover
+    background-position: center
+    .input-form
+        width: 50%
+    button
+        border: 1px solid rgb(204, 202, 202)
+
+
+
+footer
+    justify-content: center
+    background-color: rgb(39, 38, 38)
+    padding-bottom: 2%
+
+.div1-footer
+    border-right: 1px solid rgba(110, 110, 110, 0.664)
+    padding-left: 12%
+
+.div2-footer
+    a 
+        text-decoration: none
+        p:hover
+            color: white !important
+        
+        
+
+.div3-footer
+    border-left: 1px solid rgba(110, 110, 110, 0.664)
+    button
+        background-color: rgb(39, 38, 38)
+        border: 1px solid rgba(110, 110, 110, 0.664)
+        margin: 2px 3px
+    button:hover
+        color: white !important
+
+.div-btn-footer
+    padding-right: 50%
+
+hr
+    border-top: 1px solid rgba(110, 110, 110, 0.664)
+    
+
+.div-footer
+    background-color: black
+    padding: 2%
+
+
+.btn2:focus
+    outline: none
+
+
+    //CAROUSEL
+
+
+
+	
